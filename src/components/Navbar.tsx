@@ -72,6 +72,8 @@ const Navbar: React.FC<NavbarProps> = ({
     return getSectionTitle(currentSection);
   };
 
+  const base = import.meta.env.BASE_URL;
+  
   const getLogoSrc = () => {
     if (isMobile) {
       // Mobile: Use full logo with text
