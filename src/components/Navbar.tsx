@@ -82,7 +82,7 @@ const Navbar: React.FC<NavbarProps> = ({
       // Desktop: Use full horizontal logo
       return isDark 
         ? "/logikids-logo-horizontal-white.svg" 
-        : "/logikids-logo.svg";
+        : "${base}/logikids-logo.svg";
     }
   };
 
