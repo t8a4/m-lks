@@ -76,12 +76,12 @@ const Navbar: React.FC<NavbarProps> = ({
     if (isMobile) {
       // Mobile: Use full logo with text
       return isDark 
-        ? "/Logikids logo - white.svg" 
-        : "/Logikids logo.svg";
+        ? "/Logikids-logo-white.svg" 
+        : "/Logikids-logo.svg";
     } else {
       // Desktop: Use full horizontal logo
       return isDark 
-        ? "/logikids logo - horizontal - white.svg" 
+        ? "/logikids-logo-horizontal-white.svg" 
         : "/logikids-logo.svg";
     }
   };
