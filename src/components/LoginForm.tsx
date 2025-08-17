@@ -65,7 +65,7 @@ const LoginForm: React.FC<LoginFormProps> = ({ onLogin }) => {
 
   const getLogoSrc = () => {
     return isDark 
-      ? "/logikids logo-horizontal-white.svg" 
+      ? "/logikids-logo-horizontal-white.svg" 
       : "/logikids-logo.svg";
   };
 
